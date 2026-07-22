@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
+<meta name="description" content="两点（Dotto）是一款围绕「人」保存关系记忆的 iOS 应用：记住生日、纪念日、礼物来往和偏好，在重要日子前做更合适的准备。无广告、无追踪，数据存储于中国境内。">
+<link rel="canonical" href="https://www.dottoapp.cn/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="两点 Dotto">
+<meta property="og:title" content="两点 Dotto · 用心经营每段关系">
+<meta property="og:description" content="为重要的人建立档案，记下纪念日、来往与点滴。重要的日子不再错过，每次相处都更走心。">
+<meta property="og:url" content="https://www.dottoapp.cn/">
+<meta property="og:image" content="https://www.dottoapp.cn/logo.png">
 <title>两点 Dotto · 用心经营每段关系</title>
 <style>
   :root{--bg:#FAFCFE;--card:#fff;--ink:#090A0A;--body:#2C2F31;--muted:#72777A;
@@ -27,6 +35,11 @@
   .logo .en{color:var(--muted);font-size:15px;letter-spacing:3px;margin-top:6px}
   h1{font-size:24px;margin:18px 0 6px;color:var(--ink)}
   .tag{color:var(--muted);font-size:17px;margin:0 0 18px}
+  .feats{margin:30px 0 6px}
+  .feats h2{font-size:19px;margin:0 0 10px;color:var(--ink)}
+  .feats ul{margin:0;padding-left:20px}
+  .feats li{margin:8px 0;font-size:15px}
+  .feats strong{color:var(--ink)}
   .cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:28px 0}
   .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;
     padding:18px 18px;text-decoration:none;color:var(--ink)}
@@ -41,6 +54,21 @@
   footer.site a{color:var(--muted)}
   @media(max-width:480px){.cards{grid-template-columns:1fr}.logo .name{font-size:30px}.logo .mark{height:64px}}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "两点",
+  "alternateName": ["Dotto", "两点 Dotto", "两点 - 个人关系记录", "个人关系记录"],
+  "url": "https://www.dottoapp.cn/",
+  "operatingSystem": "iOS",
+  "applicationCategory": "LifestyleApplication",
+  "description": "两点（Dotto）是一款围绕「人」保存关系记忆的 iOS 应用，帮你记住重要日子、礼物来往和偏好，并在重要时刻到来前做更合适的准备。",
+  "author": { "@type": "Person", "name": "QI CHEN" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY" },
+  "inLanguage": "zh-CN"
+}
+</script>
 </head>
 <body>
 <div class="wrap">
@@ -48,6 +76,7 @@
     <div class="brand"><img class="mark" src="./logo.png" alt="两点 Dotto">两点 <small>DOTTO</small></div>
     <nav class="top">
       <a href="./index.html" class="active">首页</a>
+      <a href="./faq.html">常见问题</a>
       <a href="./privacy.html">隐私政策</a>
       <a href="./terms.html">用户协议</a>
     </nav>
@@ -66,7 +95,22 @@
       <p class="tag">为重要的人建立档案，记下纪念日、来往与点滴。重要的日子不再错过，每次相处都更走心。</p>
     </section>
 
+    <section class="feats">
+      <h2>两点能做什么</h2>
+      <ul>
+        <li><strong>围绕人保存关系记忆</strong>：生日、纪念日、来往和偏好，都沉淀在具体的人名下，不止是一条条日期。</li>
+        <li><strong>重要日子提前想起</strong>：公历、农历都支持，提前提醒之外，还能看到准备笔记和过去的相处细节。</li>
+        <li><strong>心意多点灵感</strong>：送礼、祝福、见面前，结合你记下的来往和偏好，获得 AI 准备参考；建议只是参考，选择由你决定。</li>
+        <li><strong>来往有迹可循</strong>：礼物、回礼和关系里的小事慢慢记下来，下一次重要时刻前重新变得有用。</li>
+        <li><strong>安静、私密、低负担</strong>：记录只给自己看，无广告、无追踪；通过 Apple 登录可保存和恢复数据。</li>
+      </ul>
+    </section>
+
     <section class="cards">
+      <a class="card" href="./faq.html">
+        <div class="t">常见问题</div>
+        <div class="d">两点是什么、能做什么、数据如何保护</div>
+      </a>
       <a class="card" href="./privacy.html">
         <div class="t">隐私政策</div>
         <div class="d">我们收集什么、如何使用与保护你的数据</div>
